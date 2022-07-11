@@ -1,0 +1,1 @@
+python train_bc.py --cuda --dataset voc -root /home/yifux/ --num_queries 10 --batch_size 16 --img_size 512 --backbone mb2 --max_epoch 500 --lr_drop 100 --eval_epoch 2 --aux_loss --use_nms --no_warmup --start_epoch 300 --lr 0.000074 --resume weights/voc/mb2_detr_282_mAP_20.75.pth
